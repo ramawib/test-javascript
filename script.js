@@ -23,5 +23,8 @@ const showForm = document.querySelector('.show');
 
 showForm.addEventListener('click', function(){
     if(form.style.display == 'none'){
-        form.style.display = 'block'
-    }})
+        form.style.display = 'block';
+    } else if(form.style.display == 'block'){
+        form.style.display = 'none';
+    }
+})
